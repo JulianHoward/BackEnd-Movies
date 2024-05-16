@@ -17,7 +17,7 @@ ma = Marshmallow(app)
 class Movie(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(500))
-    poster = db.Column(db.String(255))  # Cambiado a String para contener URL
+    poster = db.Column(db.String(255))
     rating = db.Column(db.Float)
     genre = db.Column(db.String(100))
     releaseDate = db.Column(db.Date)
