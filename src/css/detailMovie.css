@@ -1,0 +1,27 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#movieDetails {
+    text-align: center;
+}
+
+#movieDetails img {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px; /* Establecer una altura máxima para la imagen */
+    margin-bottom: 20px;
+}
+
+#movieDetails p {
+    margin-bottom: 10px;
+}
+
+#movieDetails button {
+    margin-top: 20px;
+}

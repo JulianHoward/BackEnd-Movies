@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Película</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Agregar Película</h1>
+        <form id="createForm">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="poster">URL de la Portada:</label>
+                <input type="text" class="form-control" id="poster" name="poster" required>
+            </div>
+            <div class="form-group">
+                <label for="rating">Clasificación:</label>
+                <input type="number" class="form-control" id="rating" name="rating" required>
+            </div>
+            <div class="form-group">
+                <label for="genre">Género:</label>
+                <input type="text" class="form-control" id="genre" name="genre" required>
+            </div>
+            <div class="form-group">
+                <label for="releaseDate">Fecha de Estreno:</label>
+                <input type="date" class="form-control" id="releaseDate" name="releaseDate" required>
+            </div>
+            <div class="form-group">
+                <label for="synopsis">Sinópsis:</label>
+                <textarea class="form-control" id="synopsis" name="synopsis" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Agregar Película</button>
+        </form>
+    </div>
+
+    
+    <script src="../js/crudMovies.js"></script>
+</body>
+</html>
